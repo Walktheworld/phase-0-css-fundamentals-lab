@@ -2,4 +2,40 @@ body {
   width: 100%;
   height: 100%;
   margin: 0;
+  /* Would text-align work here too if im gonna have everything on the page centered? */
+}
+
+header {
+  text-align: center;
+}
+
+nav > a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: cornflowerblue;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  font-size: 10pt;
+  text-align: center;
+}
+
+#featured-property > p {
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+
+}
+
+div {
+  float: left;
+  background-color: rgb(141, 115, 189);
+  text-align: center;
+  width: 25%;
+
 }
